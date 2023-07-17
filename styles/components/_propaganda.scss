@@ -1,0 +1,30 @@
+@import '../abstract/variaveis';
+
+#propaganda {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    .img-container {
+        
+    }
+    .propaganda-textos {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            padding: 1rem;
+            font-size: $tamanho-fonte;            
+            color: $cor-primaria;
+            font-weight: 700;
+        }
+        h4 {
+            padding: 1rem;
+            font-size: $tamanho-fonte / 2;
+            color: $cor-secundaria;
+        }
+        p {
+            padding: 1rem;
+            font-size: $tamanho-fonte /3;            
+            color: $cor-secundaria;
+        }
+    }
+}
